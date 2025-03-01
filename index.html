@@ -42,8 +42,8 @@
                 <img src="assets/checkbox.png" alt="" />
                 <p id="count" class="font-bold text-2xl">23</p>
               </div>
-              <div class="bg-slate-100 my-auto p-3 rounded-3xl">
-                <img class="h-8" src="assets/theme-btn.png" alt="" />
+              <div id="changeBg" class="bg-slate-100 my-auto p-3 rounded-3xl">
+                <img  class="h-8" src="assets/theme-btn.png" alt="" />
               </div>
             </div>
           </div>
@@ -104,7 +104,7 @@
             <div class="bg-slate-200 rounded-lg p-4 space-y-2">
               <div class="space-y-2">
                 <button class="bg-white p-2 rounded-lg">ShopEase</button>
-                <h1 class="font-semibold text-xl">Fix Mobile Button Issue</h1>
+                <h1 class=" card-title font-semibold text-xl">Fix Mobile Button Issue</h1>
                 <p class="bg-white p-3 text-gray-500 rounded-lg">
                   Debug using Chrome DevTools, check for overlapping...
                 </p>
@@ -126,7 +126,7 @@
             <div class="bg-slate-200 rounded-lg p-4 space-y-2">
               <div class="space-y-2">
                 <button class="bg-white p-2 rounded-lg">CloudSync</button>
-                <h1 class="font-semibold text-xl">Add Dark Mode</h1>
+                <h1 class=" card-title font-semibold text-xl">Add Dark Mode</h1>
                 <p class="bg-white p-3 text-gray-500 rounded-lg">
                   Debug using Chrome DevTools, check for overlapping...
                 </p>
@@ -148,7 +148,7 @@
             <div class="bg-slate-200 rounded-lg p-4 space-y-2">
               <div class="space-y-2">
                 <button class="bg-white p-2 rounded-lg">SwiftPay</button>
-                <h1 class="font-semibold text-xl">Optimize Home page</h1>
+                <h1 class="  card-title font-semibold text-xl">Optimize Home page</h1>
                 <p class="bg-white p-3 text-gray-500 rounded-lg">
                   Debug using Chrome DevTools, check for overlapping...
                 </p>
@@ -170,7 +170,7 @@
             <div class="bg-slate-200 rounded-lg p-4 space-y-2">
               <div class="space-y-2">
                 <button class="bg-white p-2 rounded-lg">Meta</button>
-                <h1 class="font-semibold text-xl">Add new emoji 🤲</h1>
+                <h1 class=" card-title font-semibold text-xl">Add new emoji 🤲</h1>
                 <p class="bg-white p-3 text-gray-500 rounded-lg">
                   Debug using Chrome DevTools, check for overlapping...
                 </p>
@@ -192,7 +192,7 @@
             <div class="bg-slate-200 rounded-lg p-4 space-y-2">
               <div class="space-y-2">
                 <button class="bg-white p-2 rounded-lg">Google LLC</button>
-                <h1 class="font-semibold text-xl">Integrate OpenAI API</h1>
+                <h1 class=" card-title font-semibold text-xl">Integrate OpenAI API</h1>
                 <p class="bg-white p-3 text-gray-500 rounded-lg">
                   Debug using Chrome DevTools, check for overlapping...
                 </p>
@@ -214,7 +214,7 @@
             <div class="bg-slate-200 rounded-lg p-4 space-y-2">
               <div class="space-y-2">
                 <button class="bg-white p-2 rounded-lg">Glassdoar</button>
-                <h1 class="font-semibold text-xl">Improve Job searching</h1>
+                <h1  class=" card-title font-semibold text-xl">Improve Job searching</h1>
                 <p class="bg-white p-3 text-gray-500 rounded-lg">
                   Debug using Chrome DevTools, check for overlapping...
                 </p>
@@ -237,18 +237,24 @@
 
         <!-- dain paser card ta -->
         <section
-          class="flex flex-col space-y-2 ml-5 bg-white w-1/4 rounded-lg pt-6"
-        >
+          class="flex flex-col space-y-2 ml-5 bg-white w-1/4 rounded-lg pt-6">
+        
           <div class="flex justify-center items-center gap-3">
             <img class="h-4" src="assets/activity.png" alt="" />
             <h2 class="text-slate-900">Activity Log</h2>
           </div>
-          <button
-            class="bg-indigo-700 text-white font-semibold rounded-lg p-2 mx-auto"
-          >
-            Clear History
+          <button id="clear-btn"
+            class="bg-indigo-700 text-white font-semibold rounded-lg p-2 mx-auto">Clear History
           </button>
         </section>
+
+        <div class="history">
+
+        </div>
+
+
+
+
       </main>
     </section>
     <script src="scripts/script.js"></script>
