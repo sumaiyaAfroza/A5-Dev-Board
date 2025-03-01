@@ -7,8 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <header>
+<body class="bg-slate-200">
+    <header  class="container mx-auto ">
         <nav class="mb-10">
           <div class="navbar bg-base-100 shadow-sm rounded-lg">
             <div class="flex-none ">
@@ -16,22 +16,35 @@
                 <img class="h-10" src="assets/logo.png" alt="">
               </button>
             </div>
+
             <div class="flex-1">
               <p class="text-2xl h-8"><span class="">Dev</span><span class="font-bold">Board</span></p>
             </div>
-
-          <div class="flex space-x-4">
-            <div class="flex gap-2 p-3 bg-slate-100 rounded-3xl">
-              <img src="assets/checkbox.png" alt="">
-              <p id="count" class="font-bold text-2xl">23</p>
-            </div>
-            <div class=" bg-slate-100 my-auto p-3 rounded-3xl">
-              <img class="h-8"  src="assets/theme-btn.png" alt="">
+            <div>
+                <a href="./index.html" class="bg-blue-700 p-4 font-semibold text-white rounded-lg">Back to Desk</a>
             </div>
           </div>
         </div>
         </nav>
     </header>
+
+    <main  class="container mx-auto ">
+        <section class="space-y-4">
+            <h1 class="font-bold text-2xl flex justify-center items-center">Blogs</h1>
+            <div class="bg-white p-4 space-y-2">
+                <p class="font-semibold text-xl border-b-2 border-dotted border-gray-500">Question-1: what are the different ways to select an element in the DOM?</p>
+                <p>dom er onk kaj er jonno different type element use kora hoi. jemon: <br> 1.getElementById()= sudu matro akta id dore kaj clano hoi jeta nirdisto aktai use hoise. <br> 2. getElementByClassName() = kuno tag modhe class name take akadik tokon ai element use kore kaj kore. <br> 3.getElementByTagName()= h1-h6, p, etc tag diye kaj kore.br <br> 4. querySelector() = akadin tag modhe akta same id diye oita dore kaj kora hoi.tokon # use korte hoi. <br> 5. querySelectorAll()= class name jokon use kora hoi tokon { . } ai dot diye class name dite hoi kaj jonno.  </p>
+            </div>
+            <div class="bg-white p-4 space-y-2">
+                <p class="font-semibold text-xl border-b-2 border-dotted border-gray-500" >Question-2: What is the difference between innerHTML, innerText, and textContent ? </p>
+                <p>innerHTML = js madhome bhitorer HTMl ta dekay .onk somoy ase kisu tag show koraite hobe tokon ai innerHTML use kore return kora jy. <br>innerText = kuno element er vhitorer function kaj korle ai text return dekabe tokon ai innerText use hoi hidden/display:none aigula dekay na. <br>textContent= hidden soho sob text gulai dekay return </p>
+            </div>
+            <div>
+                <p class="font-semibold text-xl border-b-2 border-dotted border-gray-500" >Question-3: What is event delegation in the DOM?</p>
+                <p></p>
+            </div>
+        </section>
+    </main>
     
 </body>
 </html>

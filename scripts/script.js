@@ -1,9 +1,16 @@
-    let task = 6;
-    let count = 23;
+const todayDate = document.getElementById("coto-date");
+const currentDate = new Date();
+todayDate.innerText = currentDate.toDateString();
 
-        const btns = document.querySelectorAll('#completed')
-        for (const btn of btns)
-        btn.addEventListener('click', function (event) {
+
+
+
+let task = 6;
+let count = 23;
+
+const btns = document.querySelectorAll('#completed')
+for (const btn of btns)
+    btn.addEventListener('click', function (event) {
         event.preventDefault();
         alert('board updated successfully')
 
@@ -19,7 +26,7 @@
             document.getElementById('task').innerText = task;
             document.getElementById('count').innerText = count;
         }
-        else{
-            
+        else {
+
         }
     })
