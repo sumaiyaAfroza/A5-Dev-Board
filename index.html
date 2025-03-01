@@ -25,7 +25,7 @@
               <div class="flex space-x-4">
                 <div class="flex gap-2 p-3 bg-slate-100 rounded-3xl">
                   <img src="assets/checkbox.png" alt="">
-                  <p class="font-bold text-2xl">23</p>
+                  <p id="count" class="font-bold text-2xl">23</p>
                 </div>
                 <div class=" bg-slate-100 my-auto p-3 rounded-3xl">
                   <img class="h-8"  src="assets/theme-btn.png" alt="">
@@ -47,7 +47,7 @@
            </div>
            <div>
              <p>Task Assigned</p>
-             <p class="font-bold text-2xl">05</p>
+             <p id="task" class="font-bold text-2xl">6</p>
            </div>
           </div>
           <!-- boro btn jetai notun html add hobe -->
@@ -63,6 +63,7 @@
              <time datetime="28-06-2025"><span class="text-xl">wed,</span> <br> <span class="font-bold text-xl">Jul 28 2025</span></time>
             </div>
          </div>
+
          <!--  -->
          <!-- grid gula -->
           <div class="grid grid-cols-3 gap-6">
@@ -76,7 +77,7 @@
            <div class="space-x-6">
             <p class="text-gray-600">Deadline</p>
             <time class="font-semibold" datetime="21-03-2025">21 March 2025</time>
-            <button class="bg-indigo-600 text-white p-2 rounded-lg">Completed</button>
+            <button id="completed" class=" bg-indigo-600 text-white p-2 rounded-lg">Completed</button>
            </div>
           </div>
           <!-- card 2 -->
@@ -89,7 +90,7 @@
            <div class="space-x-6">
             <p class="text-gray-600">Deadline</p>
             <time class="font-semibold" datetime="21-03-2025">21 March 2025</time>
-            <button class="bg-indigo-600 text-white p-2 rounded-lg">Completed</button>
+            <button id="completed" class=" bg-indigo-600 text-white p-2 rounded-lg">Completed</button>
            </div>
           </div>
           <!-- card 3 -->
@@ -102,7 +103,7 @@
            <div class="space-x-6">
             <p class="text-gray-600">Deadline</p>
             <time class="font-semibold" datetime="21-03-2025">21 March 2025</time>
-            <button class="bg-indigo-600 text-white p-2 rounded-lg">Completed</button>
+            <button id="completed" class="bg-indigo-600 text-white p-2 rounded-lg">Completed</button>
            </div>
           </div>
           <!-- card 4 -->
@@ -110,12 +111,12 @@
            <div class="space-y-2">
              <button class="bg-white p-2 rounded-lg">Meta</button>
              <h1 class="font-semibold text-xl">Add new emoji 🤲</h1>
-             <p class="bg-white p-3 text-gray-500 rounded-lg">Debug using Chrome <br> DevTools, check for overlapping...</p>
+             <p class="bg-white p-3 text-gray-500 rounded-lg">Debug using Chrome DevTools, check for overlapping...</p>
            </div>
            <div class="space-x-6">
             <p class="text-gray-600">Deadline</p>
             <time class="font-semibold" datetime="21-03-2025">21 March 2025</time>
-            <button class="bg-indigo-600 text-white p-2 rounded-lg">Completed</button>
+            <button id="completed" class="bg-indigo-600 text-white p-2 rounded-lg">Completed</button>
            </div>
           </div>
           <!-- card 5 -->
@@ -128,7 +129,7 @@
            <div class="space-x-6">
             <p class="text-gray-600">Deadline</p>
             <time class="font-semibold" datetime="21-03-2025">21 March 2025</time>
-            <button class="bg-indigo-600 text-white p-2 rounded-lg">Completed</button>
+            <button id="completed" class="bg-indigo-600 text-white p-2 rounded-lg">Completed</button>
            </div>
           </div>
           <!-- card 6 -->
@@ -136,19 +137,19 @@
            <div class="space-y-2">
              <button class="bg-white p-2 rounded-lg">Glassdoar</button>
              <h1 class="font-semibold text-xl">Improve Job searching </h1>
-             <p class="bg-white p-3 text-gray-500 rounded-lg">Debug using Chrome <br> DevTools, check for overlapping...</p>
+             <p class="bg-white p-3 text-gray-500 rounded-lg">Debug using Chrome DevTools, check for overlapping...</p>
            </div>
            <div class="space-x-6">
             <p class="text-gray-600">Deadline</p>
             <time class="font-semibold" datetime="21-03-2025">21 March 2025</time>
-            <button class="bg-indigo-600 text-white p-2 rounded-lg">Completed</button>
+            <button id="completed" class="bg-indigo-600 text-white p-2 rounded-lg">Completed</button>
            </div>
           </div>
           </div>
        </section>
 
        <!-- dain paser card ta -->
-        <section class="flex flex-col space-y-2 ml-5 bg-white w-1/4 rounded-lg pt-6">
+        <section class="flex flex-col space-y-2 ml-5 bg-white w-1/4 rounded-lg pt-6 ">
          <div class="flex justify-center items-center gap-3">
            <img class="h-4" src="assets/activity.png" alt="">
            <h2 class="text-slate-900">Activity Log</h2>
@@ -160,6 +161,7 @@
         
 
     </section>
+<script src="scripts/script.js"></script>
     
 </body>
 </html>
