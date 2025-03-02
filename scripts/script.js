@@ -27,8 +27,10 @@ for (const btn of btns)
         }
         else {
         }
-        document.getElementById('completed').disable = true;
+        btn.setAttribute('disabled', true)
         
+
+
 
         const newElement = document.createElement("div");
 
@@ -48,44 +50,11 @@ for (const btn of btns)
   
         hours = hours % 12 || 12;
   
-        minutes = minutes < 10 ? "0" + minutes : minutes;
-        seconds = seconds < 10 ? "0" + seconds : seconds;
-  
         return `${hours}:${minutes}:${seconds} ${amPm}`;
       }
     historyLog.appendChild(newElement);
 }); 
 
-
-
-// const cardTitle =document.querySelectorAll('.card-title');
-//         const historyLog =document.getElementById('history')
-        
-
-//         const newElement = document.createElement("div");
-
-//     newElement.innerHTML = `
-//     <div class="bg-slate-100 p-3 mb-7 rounded-xl"> 
-//         <p> You have Complete The Task ${
-//           cardTitle.btn.innerText
-//         } at ${format12HourTime()} </p>
-//         </div>
-//     `;
-//     function format12HourTime() {
-//         const nowTime = new Date();
-//         let hours = nowTime.getHours();
-//         let minutes = nowTime.getMinutes();
-//         let seconds = nowTime.getSeconds();
-//         const amPm = hours >= 12 ? "PM" : "AM";
-  
-//         hours = hours % 12 || 12;
-  
-//         minutes = minutes < 10 ? "0" + minutes : minutes;
-//         seconds = seconds < 10 ? "0" + seconds : seconds;
-  
-//         return `${hours}:${minutes}:${seconds} ${amPm}`;
-//       }
-//     historyLog.appendChild(newElement);
 
 const colors = ["indigo", "#33FF57", "yellow", "pink", "#3357FF"]; 
 
